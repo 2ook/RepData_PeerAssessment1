@@ -101,4 +101,4 @@ xyplot(steps ~ interval | weekend,data=data.filled.weekday.dcast,layout=c(1,2),s
 
 #knitting to HTML
 
-knit2
+knit2html('PA1_template.Rmd')
